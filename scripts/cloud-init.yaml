@@ -1,0 +1,15 @@
+
+users:
+  - default
+  - name: kostya
+    gecos: kostya
+    primary_group: admins
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    ssh_import_id:
+    lock_passwd: false
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDiCUT5IThz7a//aELf1BrU6XKiPVQQAt+XcB9HJR1/zNprYeZO239hQcyxk+rlps4aOyY4ELG0JQgFFICCLy6Vxvck+eWbEA8vS7heRHwsQxZL0Bq8RafjwL33xEqZRDtr/VKkl0A4ivyOnUiZ+Qb5thIyFhO5ZPr6WzeeWlX2403HpeXMof4P+a1uzX/jlcQ4v62geJux+gJGP3ERvGGMhdAnH+zZpWnkouoRRqiV4dwVfA5cYNyyc3vThLaxHWPrwypizXMZKUb3rFTBt9ljEMusIw7vC1JmkBWxXzKeMwPOlRalE9Uehii+Wd2X2FX/l4cJ9eJ94BzCFDt21o3 KOSTYA
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDiCUT5IThz7a//aELf1BrU6XKiPVQQAt+XcB9HJR1/zNprYeZO239hQcyxk+rlps4aOyY4ELG0JQgFFICCLy6Vxvck+eWbEA8vS7heRHwsQxZL0Bq8RafjwL33xEqZRDtr/VKkl0A4ivyOnUiZ+Qb5thIyFhO5ZPr6WzeeWlX2403HpeXMof4P+a1uzX/jlcQ4v62geJux+gJGP3ERvGGMhdAnH+zZpWnkouoRRqiV4dwVfA5cYNyyc3vThLaxHWPrwypizXMZKUb3rFTBt9ljEMusIw7vC1JmkBWxXzKeMwPOlRalE9Uehii+Wd2X2FX/l4cJ9eJ94BzCFDt21o3 root
+
+
